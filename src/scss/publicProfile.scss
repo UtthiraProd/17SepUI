@@ -1,0 +1,99 @@
+#dvpublicProfile .form-control{
+    color: #d5123e !important;
+    font-size: 16px !important;
+}
+
+#dvRegisterProfile .form-control{
+    color: #d5123e !important;
+    font-size: 16px !important;
+}
+.content{
+    background: url(../img/matBackground.png)!important;
+    background-size: cover !important;
+    padding: 2%;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.form-control{
+    border-color:blue
+}
+
+.errorText{
+    color: red;
+  }
+
+
+  /* Common styles for the individual columns */
+.horo-column {
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #1aa179;
+    padding: 15px;
+  }
+  
+  /* Style for the text (handling color change when 'ல' is encountered) */
+  .horo-column span {
+    color: black;
+  }
+  
+  .horo-column span.red-text {
+    color: red;  /* When the item is 'ல', make it red */
+  }
+
+
+/* Inactive dot style */
+.carousel-indicators button {
+  background-color: #ffffff !important;  /* Gray color for inactive dots */
+  border: 2px solid #1aa179 !important;  /* Border color and thickness for inactive dots */
+  width: 10px !important;  /* Size of inactive dots */
+  height: 10px !important;  /* Size of inactive dots */
+  border-radius: 50% !important;  /* Circular shape */
+  transition: background-color 0.3s ease, width 0.3s ease, height 0.3s ease;
+  padding: 0 !important;  /* Remove any padding */
+  margin: 0 5px;  /* Space between dots */
+}
+
+/* Active dot style */
+.carousel-indicators .active {
+  background-color: #1aa179 !important;  /* Green color for active dot */
+  width: 12px !important;  /* Larger size for the active dot */
+  height: 12px !important;  /* Larger size for the active dot */
+  border: 1px solid #ffffff !important;  /* Darker green border for active dot */
+}
+
+/* Optional: Hover effect on inactive dots */
+.carousel-indicators button:hover {
+  background-color: #f5f5f5 !important; /* Change to red on hover (optional) */
+}
+
+/* print Button */
+.print-btn {
+  width: 100%;
+  max-width: 450px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .print-btn {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 800px) {
+ .print-btn {
+  width: 100%;
+  max-width: 700px;
+  box-sizing: border-box;
+}
+}
+
+
+#dvuPlan .Plancard{
+  border: 2px solid #1aa179;
+  //  box-shadow: 0  0 10px #0fca28;
+}
+input[type="radio"] {
+  transform: scale(1.5); /* Increase to 1.5x size */
+  background-color:  #1aa179
+}

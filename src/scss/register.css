@@ -1,0 +1,162 @@
+#dvuserregister .card {
+    border: 0;
+    border-radius: 0px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.03);
+    box-shadow: 0 2px 3px rgba(0,0,0,0.03);
+    -webkit-transition: .5s;
+    transition: .5s;
+    margin-left: 20%;
+}
+
+.padding {
+    padding: 3rem !important
+}
+
+body {
+    background-color: #ffffff
+}
+
+#dvuserregister .card-title {
+    /* /* /* font-size: 25px;
+    font-family: Roboto,sans-serif; */
+     
+    /* line-height: 1.5;
+     margin-bottom: 0; 
+     padding: 15px 20px;
+    border-bottom: 1px solid rgba(77,82,89,0.07); */ 
+    /* margin-left: 10px; */
+    font-weight: 600;
+}
+#dvuserregister .top{
+    margin-bottom: 10%;
+}
+
+.fw-400 {
+    font-weight: 400 !important;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+   
+}
+/* #dvuserregister .card-body{
+    margin-right: 20%;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+} */
+
+.card-body>*:last-child {
+    margin-bottom: 0;
+}
+
+
+.btn-bold {
+    font-family: Roboto,sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.btn-primary:hover {
+    background-color: #52d3c7;
+    border-color: #52d3c7;
+    color: #fff;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.form-control:focus {
+    border-color: #83e0d7;
+    color: #4d5259;
+    -webkit-box-shadow: 0 0 0 0.1rem rgba(51,202,187,0.15);
+    box-shadow: 0 0 0 0.1rem rgba(51,202,187,0.15);
+}
+
+.custom-radio {
+    cursor: pointer;
+}
+
+.custom-control {
+    display: -webkit-box;
+    display: flex;
+    min-width: 18px;
+}
+
+
+#dvuserregister .form-control{
+    border-color:#1aa179;
+    border-radius: 5px;
+    color: #09090a;
+    /* padding: 5px 12px; */
+    font-size: 14px;
+    line-height: inherit;
+    -webkit-transition: 0.2s linear;
+    transition: 0.2s linear;
+    width: 100%;
+
+}
+
+/* Remove spinner for Chrome, Safari, Edge */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Remove spinner for Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+/* #dvuserregister .btn{
+    width:100%;
+} */
+
+/* #dvuserregister .btnVerify{
+    width: 40%;
+    /* border: none; */
+    /* justify-content: space-between; */
+
+/* }  */
+#dvuserregister label{
+    font-size: 13px;
+    font-weight:600;
+}
+
+
+@media (max-width: 2000px) {
+.card-varify{
+    margin-top: 20%;
+}
+.card-end{
+    margin-top: 15%;
+}
+.card-middle{
+    margin-top: 20%;
+}
+}
+
+@media (max-width: 600px) {
+.card-varify{
+    margin-top: 0%;
+}
+
+}
+@media (max-width: 1000px) {
+.card-varify{
+    margin-top: 0%;
+}
+.card-end{
+    margin-top: 0%;
+    width: 100%;
+}
+}
+
+

@@ -1,0 +1,1170 @@
+[{
+  "_id": {
+    "$oid": "65da2e5dc487d4423e0e00af"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "sex",
+  "validationType": "fieldLength",
+  "message": "Sex length should not greater than 10",
+  "value": "10"
+},
+{
+  "_id": {
+    "$oid": "65da2e78c487d4423e0e00b1"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "qualifications",
+  "validationType": "fieldLength",
+  "message": "Qualifications length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "65da2eafc487d4423e0e00b4"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "fatherOccupation",
+  "validationType": "fieldLength",
+  "message": "Father Occupation length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "65da2ebbc487d4423e0e00b5"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "motherOccupation",
+  "validationType": "fieldLength",
+  "message": "Mother occupation length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "65da2ec6c487d4423e0e00b6"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "religion",
+  "validationType": "fieldLength",
+  "message": "Religion length should not greater than 30",
+  "value": "30"
+},
+{
+  "_id": {
+    "$oid": "65da2eeac487d4423e0e00b9"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "POB",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in Place of Birth",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "65da2ef4c487d4423e0e00ba"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "DOBBirth",
+  "validationType": "fieldLength",
+  "message": "Date of birth should not greater than 30",
+  "value": "30"
+},
+{
+  "_id": {
+    "$oid": "65da2f0fc487d4423e0e00bc"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "district",
+  "validationType": "fieldLength",
+  "message": "District should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "65da2f22c487d4423e0e00bd"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "region",
+  "validationType": "fieldLength",
+  "message": "District should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "65da2f34c487d4423e0e00be"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "star",
+  "validationType": "fieldLength",
+  "message": "Star length should not greater than 30",
+  "value": "30"
+},
+{
+  "_id": {
+    "$oid": "65da2f44c487d4423e0e00bf"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "rasi",
+  "validationType": "fieldLength",
+  "message": "Rasi should not greater than 30",
+  "value": "30"
+},
+{
+  "_id": {
+    "$oid": "65da2f58c487d4423e0e00c0"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "address1",
+  "validationType": "fieldLength",
+  "message": "Address1 should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "65da2f6dc487d4423e0e00c1"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "address2",
+  "validationType": "fieldLength",
+  "message": "Address2 length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "67260ffb003dbdbdf43aba66"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "name",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in Name",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "6726123a003dbdbdf43aba6a"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "maritalstatus",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in Marital Status",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "672612cd003dbdbdf43aba6c"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "qualification",
+  "validationType": "specialCharWithDot",
+  "message": "Special character not allowed in Qualification",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "6726151c003dbdbdf43aba6e"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "phoneNumber",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in Phone Number",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "67261727003dbdbdf43aba6f"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "job",
+  "validationType": "specialCharWithSpace",
+  "message": "Special character not allowed in Job",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "6726181c003dbdbdf43aba70"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "salary",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in Salary",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "67306d4e351834f6714acde1"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "sex",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in Sex",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "67306de3351834f6714acde2"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "religion",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in Religion",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "67306e33351834f6714acde3"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "caste",
+  "validationType": "fieldLength",
+  "message": "Caste length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "67306e48351834f6714acde4"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "caste",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in Caste",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "67306e7a351834f6714acde5"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "subcaste",
+  "validationType": "fieldLength",
+  "message": "Sub Caste length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "67306e90351834f6714acde6"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "subcaste",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in Sub Caste",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "67306eed351834f6714acde7"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "address1",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in Address1",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "67306f4a351834f6714acde8"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "address2",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in Address2",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "67306f98351834f6714acde9"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "iswidow",
+  "validationType": "fieldLength",
+  "message": "iswidow length should not greater than 10",
+  "value": "10"
+},
+{
+  "_id": {
+    "$oid": "67306faa351834f6714acdea"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "iswidow",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in iswidow",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "673070aa351834f6714acded"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "star",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in Star",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "673070f3351834f6714acdee"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "rasi",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in Rasi",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "67307162351834f6714acdef"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "POS",
+  "validationType": "fieldLength",
+  "message": "POS should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "67307174351834f6714acdf0"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "POS",
+  "validationType": "specialChar",
+  "message": "Special Character not allowed in POS",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "673071cd351834f6714acdf1"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "district",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in District",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "67307278351834f6714acdf2"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "birthTime",
+  "validationType": "fieldLength",
+  "message": "Birth Time should not greater than 20",
+  "value": "20"
+},
+{
+  "_id": {
+    "$oid": "67307290351834f6714acdf3"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "birthTime",
+  "validationType": "time",
+  "message": "Time format not supported in Birth Time",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "673072ec351834f6714acdf4"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "state",
+  "validationType": "fieldLength",
+  "message": "State should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "673072f7351834f6714acdf5"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "state",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in State",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "67307429351834f6714acdf9"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "brothersMarried",
+  "validationType": "specialChar",
+  "message": "Special chraacter not allowed in Brother(s) Married",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "673074a6351834f6714acdfb"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "brothersUnmarried",
+  "validationType": "specialChar",
+  "message": "Special chraacter not allowed in brothersUnmarried",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "6730750b351834f6714acdfc"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "notes",
+  "validationType": "fieldLength",
+  "message": "Notes length should not greater than 250",
+  "value": "250"
+},
+{
+  "_id": {
+    "$oid": "6739ebc808cd32dbbd15c101"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "pincode",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in Pincode",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "674181e7e157ac637a8faff6"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "POB",
+  "validationType": "fieldLength",
+  "message": "Place of birth length should not greater than 30",
+  "value": "30"
+},
+{
+  "_id": {
+    "$oid": "674199f297b9779fe94f291f"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "name",
+  "validationType": "fieldLength",
+  "message": "Name length should not greater than 30",
+  "value": "30"
+},
+{
+  "_id": {
+    "$oid": "67419a0997b9779fe94f2920"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "job",
+  "validationType": "fieldLength",
+  "message": "Job length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "67419a2197b9779fe94f2921"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "salary",
+  "validationType": "fieldLength",
+  "message": "Salary length should not greater than 10",
+  "value": "10"
+},
+{
+  "_id": {
+    "$oid": "67419a9697b9779fe94f2922"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "maritalstatus",
+  "validationType": "fieldLength",
+  "message": "Marital status length should not greater than 20",
+  "value": "15"
+},
+{
+  "_id": {
+    "$oid": "67419b4e97b9779fe94f2923"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "qualification",
+  "validationType": "fieldLength",
+  "message": "Qualification length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "67419b8597b9779fe94f2924"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "phoneNumber",
+  "validationType": "fieldLength",
+  "message": "Phone number length should not greater than 10",
+  "value": "10"
+},
+{
+  "_id": {
+    "$oid": "67419d1197b9779fe94f2925"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "sistersMarried",
+  "validationType": "fieldLength",
+  "message": "Sister(s) Married length should not greater than 2",
+  "value": "2"
+},
+{
+  "_id": {
+    "$oid": "67419d3197b9779fe94f2926"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "sistersMarried",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in Sister(s) Married",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "6741a1f597b9779fe94f2927"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "brothersMarried",
+  "validationType": "fieldLength",
+  "message": "Brother(s) Married length should not greater than 2",
+  "value": "2"
+},
+{
+  "_id": {
+    "$oid": "6741a24597b9779fe94f2928"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "brothersUnmarried",
+  "validationType": "fieldLength",
+  "message": "Brother(s) Unmarried length should not greater than 2",
+  "value": "2"
+},
+{
+  "_id": {
+    "$oid": "6741a4b597b9779fe94f2929"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "sistersUnmarried",
+  "validationType": "fieldLength",
+  "message": "Sister(s) Unmarried length should not greater than 2",
+  "value": "2"
+},
+{
+  "_id": {
+    "$oid": "6741a4ed97b9779fe94f292a"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "sistersUnmarried",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in Sister(s) Unmarried",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "677505a58d6859883621547a"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "notes",
+  "validationType": "specialCharForNotes",
+  "message": "Special chracter not allowed in notes field",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "6775494cdf889fbbc3e0f78d"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "fatherName",
+  "validationType": "fieldLength",
+  "message": "fatherName length should not greater than 30",
+  "value": "30"
+},
+{
+  "_id": {
+    "$oid": "6775496adf889fbbc3e0f78e"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "fatherName",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in fatherName",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "677549a4df889fbbc3e0f78f"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "motherName",
+  "validationType": "fieldLength",
+  "message": "motherName length should not greater than 30",
+  "value": "30"
+},
+{
+  "_id": {
+    "$oid": "677549cedf889fbbc3e0f790"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "motherName",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in motherName",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "67754f99df889fbbc3e0f791"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "colour",
+  "validationType": "fieldLength",
+  "message": "colour length should not greater than 10",
+  "value": "10"
+},
+{
+  "_id": {
+    "$oid": "67754faadf889fbbc3e0f792"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "colour",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in colour",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "67754fe2df889fbbc3e0f793"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "height",
+  "validationType": "fieldLength",
+  "message": "height length should not greater than 10",
+  "value": "10"
+},
+{
+  "_id": {
+    "$oid": "6775506bdf889fbbc3e0f795"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "weight",
+  "validationType": "fieldLength",
+  "message": "weight length should not greater than 10",
+  "value": "10"
+},
+{
+  "_id": {
+    "$oid": "67755074df889fbbc3e0f796"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "weight",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in weight",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "677550a0df889fbbc3e0f797"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "bloodGroup",
+  "validationType": "fieldLength",
+  "message": "bloodGroup length should not greater than 15",
+  "value": "15"
+},
+{
+  "_id": {
+    "$oid": "677550f2df889fbbc3e0f798"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "jobDescription",
+  "validationType": "fieldLength",
+  "message": "jobDescription length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "6775511adf889fbbc3e0f79a"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "jobLocation",
+  "validationType": "fieldLength",
+  "message": "jobLocation length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "67755199df889fbbc3e0f79b"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "foreignCountry",
+  "validationType": "fieldLength",
+  "message": "foreignCountry length should not greater than 20",
+  "value": "20"
+},
+{
+  "_id": {
+    "$oid": "677551a1df889fbbc3e0f79c"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "foreignCountry",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in foreignCountry",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "6775522cdf889fbbc3e0f79d"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "jobLocation",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in jobLocation",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "67755253df889fbbc3e0f79e"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "settledLocation",
+  "validationType": "fieldLength",
+  "message": "settledLocation length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "6775525bdf889fbbc3e0f79f"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "settledLocation",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in settledLocation",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "677552b6df889fbbc3e0f7a0"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "dhosam",
+  "validationType": "fieldLength",
+  "message": "Dhosam length should not greater than 20",
+  "value": "20"
+},
+{
+  "_id": {
+    "$oid": "677552d4df889fbbc3e0f7a2"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "selfDescription",
+  "validationType": "fieldLength",
+  "message": "self Description length should not greater than 250",
+  "value": "250"
+},
+{
+  "_id": {
+    "$oid": "6775535fdf889fbbc3e0f7a5"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "selfDescription",
+  "validationType": "specialCharForNotes",
+  "message": "Special chracter not allowed in self Description field",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "6798a983e12473b86458f1a8"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "DOBBirth",
+  "validationType": "fieldLength",
+  "message": "Place of birth length should not greater than 30",
+  "value": "30"
+},
+{
+  "_id": {
+    "$oid": "6805e1861c074af70652a48e"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "foodPreference",
+  "validationType": "fieldLength",
+  "message": "FoodPreference length should not greater than 20",
+  "value": "20"
+},
+{
+  "_id": {
+    "$oid": "6805e20e1c074af70652a48f"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "motherTongue",
+  "validationType": "fieldLength",
+  "message": "MotherTongue length should not greater than 20",
+  "value": "20"
+},
+{
+  "_id": {
+    "$oid": "6805e21b1c074af70652a490"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "motherTongue",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in motherTongue",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "6805e79e1c074af70652a493"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "contactPerson",
+  "validationType": "fieldLength",
+  "message": "ContactPerson should not greater than 20",
+  "value": "20"
+},
+{
+  "_id": {
+    "$oid": "6805e7b91c074af70652a494"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "contactPerson",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in contactPerson",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "6805e9521c074af70652a495"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "expectationFromMarriage",
+  "validationType": "fieldLength",
+  "message": "expectationFromMarriage length should not greater than 250",
+  "value": "250"
+},
+{
+  "_id": {
+    "$oid": "6805e99e1c074af70652a496"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "expectationFromMarriage",
+  "validationType": "specialCharForNotes",
+  "message": "Special character not allowed in expectationFromMarriage field",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "6820725440b529fef4a14f11"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "birthHour",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in birthHour",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "682072cf40b529fef4a14f13"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "meridiem",
+  "validationType": "fieldLength",
+  "message": "meridiem length should not greater than 2",
+  "value": "2"
+},
+{
+  "_id": {
+    "$oid": "682072d840b529fef4a14f14"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "meridiem",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in meridiem",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "6820731040b529fef4a14f15"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "birthMin",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in birthMin",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "682491f911e1d33ba56a9b49"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "DOBBirth",
+  "validationType": "Date",
+  "message": "Place of birth",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "6820724840b529fef4a14f10"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "birthHour",
+  "validationType": "fieldLength",
+  "message": "birthHour length should not greater than 2",
+  "value": "2"
+},
+{
+  "_id": {
+    "$oid": "6820729540b529fef4a14f12"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "birthMin",
+  "validationType": "fieldLength",
+  "message": "birthMin length should not greater than 2",
+  "value": "2"
+},
+{
+  "_id": {
+    "$oid": "687f5cd5a2ba43ea760cf9fc"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "additionalQualification",
+  "validationType": "fieldLength",
+  "message": "Additional Qualification length should not greater than 20",
+  "value": "20"
+},
+{
+  "_id": {
+    "$oid": "687f5e32a2ba43ea760cf9fd"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "additionalQualification",
+  "validationType": "specialChar",
+  "message": "Special character is not allowed in Additional Qualification",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "688de5bf01eeedb77957483b"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "name",
+  "validationType": "required",
+  "message": "Please fill 'Name' field",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "688de65401eeedb77957483c"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "sex",
+  "validationType": "required",
+  "message": "Please fill 'Gender' field",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "688de6ca01eeedb77957483d"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "maritalstatus",
+  "validationType": "required",
+  "message": "Please fill 'Marital Status' field",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "688de78d01eeedb77957483f"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "religion",
+  "validationType": "required",
+  "message": "Please fill 'Religion' field",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "688de8f001eeedb779574840"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "caste",
+  "validationType": "required",
+  "message": "Please fill 'Caste' field",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "688de93501eeedb779574841"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "rasi",
+  "validationType": "required",
+  "message": "Please fill 'Rasi' field",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "688de9cb01eeedb779574842"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "star",
+  "validationType": "required",
+  "message": "Please fill 'Star' field",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "688dea1201eeedb779574843"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "qualification",
+  "validationType": "required",
+  "message": "Please fill 'Qualification' field",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "688dea5501eeedb779574844"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "job",
+  "validationType": "required",
+  "message": "Please fill 'Job' field",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "688deaa501eeedb779574845"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "contactPerson",
+  "validationType": "required",
+  "message": "Please fill 'Contact Person' field",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "688deb0701eeedb779574846"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "address1",
+  "validationType": "required",
+  "message": "Please fill 'Address1' field",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "688deb6601eeedb779574847"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "state",
+  "validationType": "required",
+  "message": "Please fill 'State' field",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "688dec0101eeedb779574848"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "district",
+  "validationType": "required",
+  "message": "Please fill 'District' field",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "68a5767eabc5a8fe17b3f48b"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "fatherOccupation",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in Father Occupation",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "68a57691abc5a8fe17b3f48c"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "motherOccupation",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in Mother Occupation",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "68a5a7cbabc5a8fe17b3f497"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "phoneNumber",
+  "validationType": "phoneLength",
+  "message": "Phone Number length should not less than 10",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "68a6eb752555d6a913666fc8"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "subcaste",
+  "validationType": "noNumbers",
+  "message": "Number not allowed in Sub Caste",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "68a6ef6a2555d6a913666fcb"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "POB",
+  "validationType": "noNumbers",
+  "message": "Number not allowed in Place of Birth",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "68a6efd72555d6a913666fcd"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "additionalQualification",
+  "validationType": "noNumbers",
+  "message": "Number not allowed in Additional Qualification",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "68a6f0282555d6a913666fcf"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "jobDescription",
+  "validationType": "noNumbers",
+  "message": "Number not allowed in Job Description",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "68a6f1602555d6a913666fd1"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "fatherOccupation",
+  "validationType": "noNumbers",
+  "message": "Number not allowed in Father Occupation",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "68a6f26c2555d6a913666fd3"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "motherOccupation",
+  "validationType": "noNumbers",
+  "message": "Number not allowed in Mother Occupation",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "68a6f3082555d6a913666fd5"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "motherName",
+  "validationType": "noNumbers",
+  "message": "Number not allowed in Mother Name",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "68a6f3672555d6a913666fd7"
+  },
+  "formName": "RegisterProfile",
+  "fieldName": "fatherName",
+  "validationType": "noNumbers",
+  "message": "Number not allowed in Father Name",
+  "value": ""
+}]

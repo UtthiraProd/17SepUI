@@ -1,0 +1,1000 @@
+[{
+  "_id": {
+    "$oid": "65cce8783caafbed409a9dfb"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "name",
+  "validationType": "fieldLength",
+  "message": "Name length should not greater than 30",
+  "value": "30"
+},
+{
+  "_id": {
+    "$oid": "65cce9883caafbed409a9dfc"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "name",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in name"
+},
+{
+  "_id": {
+    "$oid": "65cceaee3caafbed409a9dfd"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "phoneNumber",
+  "validationType": "phone",
+  "value": "",
+  "message": "Phone number should be valid"
+},
+{
+  "_id": {
+    "$oid": "65cced513caafbed409a9e04"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "pincode",
+  "validationType": "pincode",
+  "value": "",
+  "message": "Pincode should be valid"
+},
+{
+  "_id": {
+    "$oid": "673062a6351834f6714acdce"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "phoneNumber",
+  "validationType": "fieldLength",
+  "message": "Phone Number length should not greater than 10",
+  "value": "10"
+},
+{
+  "_id": {
+    "$oid": "673062f1351834f6714acdcf"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "phoneNumber",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in phone number",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "6739ea4908cd32dbbd15c0fa"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "description",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in description"
+},
+{
+  "_id": {
+    "$oid": "6739ea8a08cd32dbbd15c0fb"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "address1",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in address1",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "6739eacf08cd32dbbd15c0fc"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "address2",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in address2",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "6739eaee08cd32dbbd15c0fd"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "district",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in district",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "6739eb1108cd32dbbd15c0fe"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "state",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in state",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "6739eb4f08cd32dbbd15c0ff"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "country",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in country",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "6739ebb408cd32dbbd15c100"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "pincode",
+  "validationType": "fieldLength",
+  "value": 6,
+  "message": "pincode length should not greater than 6"
+},
+{
+  "_id": {
+    "$oid": "6739f05208cd32dbbd15c102"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "pincode",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in pincode",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "674198c497b9779fe94f2919"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "address1",
+  "validationType": "fieldLength",
+  "value": "50",
+  "message": "Address1 length should not greater than 50"
+},
+{
+  "_id": {
+    "$oid": "6741996697b9779fe94f291a"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "address2",
+  "validationType": "fieldLength",
+  "value": "50",
+  "message": "Address2 length should not greater than 50"
+},
+{
+  "_id": {
+    "$oid": "6741998e97b9779fe94f291b"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "country",
+  "validationType": "fieldLength",
+  "value": "50",
+  "message": "Country length should not greater than 50"
+},
+{
+  "_id": {
+    "$oid": "674199a497b9779fe94f291c"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "district",
+  "validationType": "fieldLength",
+  "value": "50",
+  "message": "District length should not greater than 50"
+},
+{
+  "_id": {
+    "$oid": "674199bb97b9779fe94f291d"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "state",
+  "validationType": "fieldLength",
+  "value": "50",
+  "message": "State length should not greater than 50"
+},
+{
+  "_id": {
+    "$oid": "674199d197b9779fe94f291e"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "description",
+  "validationType": "fieldLength",
+  "value": "100",
+  "message": "Description length should not greater than 100"
+},
+{
+  "_id": {
+    "$oid": "67487590aecf3f0ae3b7ba59"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "maxNumberUser",
+  "validationType": "fieldLength",
+  "value": "2",
+  "message": "Maximum number user field length should not exceed 2"
+},
+{
+  "_id": {
+    "$oid": "674875b7aecf3f0ae3b7ba5a"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "maxNumberUser",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in maximum number of user"
+},
+{
+  "_id": {
+    "$oid": "6798bd56e12473b86458f1b3"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "sex",
+  "validationType": "fieldLength",
+  "message": "sex length should not greater than 10",
+  "value": "10"
+},
+{
+  "_id": {
+    "$oid": "6798bd67e12473b86458f1b4"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "sex",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in sex"
+},
+{
+  "_id": {
+    "$oid": "6798bda1e12473b86458f1b5"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "maritalstatus",
+  "validationType": "fieldLength",
+  "message": "maritalstatus length should not greater than 20",
+  "value": "15"
+},
+{
+  "_id": {
+    "$oid": "6798bdd3e12473b86458f1b6"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "maritalstatus",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in maritalstatus"
+},
+{
+  "_id": {
+    "$oid": "6798be27e12473b86458f1b7"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "colour",
+  "validationType": "fieldLength",
+  "message": "colour length should not greater than 10",
+  "value": "10"
+},
+{
+  "_id": {
+    "$oid": "6798be30e12473b86458f1b8"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "colour",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in colour"
+},
+{
+  "_id": {
+    "$oid": "6798be69e12473b86458f1b9"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "fatherName",
+  "validationType": "fieldLength",
+  "message": "fatherName length should not greater than 30",
+  "value": "30"
+},
+{
+  "_id": {
+    "$oid": "6798be77e12473b86458f1ba"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "fatherName",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in fatherName"
+},
+{
+  "_id": {
+    "$oid": "6798beade12473b86458f1bb"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "motherName",
+  "validationType": "fieldLength",
+  "message": "motherName length should not greater than 30",
+  "value": "30"
+},
+{
+  "_id": {
+    "$oid": "6798beb8e12473b86458f1bc"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "motherName",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in motherName"
+},
+{
+  "_id": {
+    "$oid": "6798bf9be12473b86458f1bf"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "weight",
+  "validationType": "fieldLength",
+  "message": "Weight length should not greater than 10",
+  "value": "10"
+},
+{
+  "_id": {
+    "$oid": "6798bfa8e12473b86458f1c0"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "weight",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in weight"
+},
+{
+  "_id": {
+    "$oid": "6798bfece12473b86458f1c1"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "bloodGroup",
+  "validationType": "fieldLength",
+  "message": "BloodGroup length should not greater than 15",
+  "value": "15"
+},
+{
+  "_id": {
+    "$oid": "6798c002e12473b86458f1c2"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "bloodGroup",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in BloodGroup"
+},
+{
+  "_id": {
+    "$oid": "6798c04ce12473b86458f1c3"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "qualification",
+  "validationType": "fieldLength",
+  "message": "Qualification length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "6798c093e12473b86458f1c4"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "qualification",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in qualification"
+},
+{
+  "_id": {
+    "$oid": "6798c0d0e12473b86458f1c5"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "job",
+  "validationType": "fieldLength",
+  "message": "Job length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "6798c0dde12473b86458f1c6"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "job",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in job"
+},
+{
+  "_id": {
+    "$oid": "6798c1b8e12473b86458f1c7"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "jobDescription",
+  "validationType": "fieldLength",
+  "message": "JobDescription length should not greater than 100",
+  "value": "100"
+},
+{
+  "_id": {
+    "$oid": "6798c2b0e12473b86458f1c8"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "jobDescription",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in jobDescription"
+},
+{
+  "_id": {
+    "$oid": "6798c2f0e12473b86458f1c9"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "salary",
+  "validationType": "fieldLength",
+  "message": "Salary length should not greater than 10",
+  "value": "10"
+},
+{
+  "_id": {
+    "$oid": "6798c308e12473b86458f1ca"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "salary",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in Salary"
+},
+{
+  "_id": {
+    "$oid": "6798c3e6e12473b86458f1cb"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "jobLocation",
+  "validationType": "fieldLength",
+  "message": "JobLocation length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "6798c408e12473b86458f1cc"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "jobLocation",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in jobLocation"
+},
+{
+  "_id": {
+    "$oid": "6798c454e12473b86458f1cd"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "foreignCountry",
+  "validationType": "fieldLength",
+  "message": "ForeignCountry length should not greater than 20",
+  "value": "20"
+},
+{
+  "_id": {
+    "$oid": "6798c474e12473b86458f1ce"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "foreignCountry",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in foreignCountry"
+},
+{
+  "_id": {
+    "$oid": "6798c570e12473b86458f1cf"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "fatherOccupation",
+  "validationType": "fieldLength",
+  "message": "FatherOccupation length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "6798c65ee12473b86458f1d1"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "motherOccupation",
+  "validationType": "fieldLength",
+  "message": "MotherOccupation length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "6798c6bfe12473b86458f1d3"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "religion",
+  "validationType": "fieldLength",
+  "message": "Religion length should not greater than 30",
+  "value": "30"
+},
+{
+  "_id": {
+    "$oid": "6798c6cfe12473b86458f1d4"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "religion",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in religion"
+},
+{
+  "_id": {
+    "$oid": "6799bdeec9141a266f237fc0"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "caste",
+  "validationType": "fieldLength",
+  "message": "caste length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "6799bdffc9141a266f237fc1"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "caste",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in caste"
+},
+{
+  "_id": {
+    "$oid": "6799be54c9141a266f237fc2"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "subcaste",
+  "validationType": "fieldLength",
+  "message": " subcaste length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "6799be68c9141a266f237fc3"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "subcaste",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in subcaste"
+},
+{
+  "_id": {
+    "$oid": "6799beafc9141a266f237fc4"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "POB",
+  "validationType": "fieldLength",
+  "message": "POB length should not greater than 30",
+  "value": "30"
+},
+{
+  "_id": {
+    "$oid": "6799bebbc9141a266f237fc5"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "POB",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in POB"
+},
+{
+  "_id": {
+    "$oid": "6799bee6c9141a266f237fc6"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "DOB",
+  "validationType": "fieldLength",
+  "message": "DOB length should not greater than 20",
+  "value": "20"
+},
+{
+  "_id": {
+    "$oid": "6799beedc9141a266f237fc7"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "DOB",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in DOB"
+},
+{
+  "_id": {
+    "$oid": "6799bf23c9141a266f237fc8"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "birthTime",
+  "validationType": "fieldLength",
+  "message": "birthTime length should not greater than 10",
+  "value": "10"
+},
+{
+  "_id": {
+    "$oid": "6799bf31c9141a266f237fc9"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "birthTime",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in birthTime"
+},
+{
+  "_id": {
+    "$oid": "6799bf93c9141a266f237fca"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "settledLocation",
+  "validationType": "fieldLength",
+  "message": "settledLocation length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "6799bfa0c9141a266f237fcb"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "settledLocation",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in settledLocation"
+},
+{
+  "_id": {
+    "$oid": "6799bfdcc9141a266f237fcc"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "star",
+  "validationType": "fieldLength",
+  "message": "star length should not greater than 30",
+  "value": "30"
+},
+{
+  "_id": {
+    "$oid": "6799bfebc9141a266f237fcd"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "star",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in star"
+},
+{
+  "_id": {
+    "$oid": "6799c00ec9141a266f237fce"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "rasi",
+  "validationType": "fieldLength",
+  "message": "rasi length should not greater than 30",
+  "value": "30"
+},
+{
+  "_id": {
+    "$oid": "6799c021c9141a266f237fcf"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "rasi",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in rasi"
+},
+{
+  "_id": {
+    "$oid": "6799c054c9141a266f237fd0"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "dhosam",
+  "validationType": "fieldLength",
+  "message": "Dhosam length should not greater than 20",
+  "value": "20"
+},
+{
+  "_id": {
+    "$oid": "6799c09cc9141a266f237fd1"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "dhosam",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in dhosam"
+},
+{
+  "_id": {
+    "$oid": "6799c139c9141a266f237fd2"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "sistersMarried",
+  "validationType": "fieldLength",
+  "message": "SistersMarried length should not greater than 2",
+  "value": "2"
+},
+{
+  "_id": {
+    "$oid": "6799c164c9141a266f237fd3"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "sistersMarried",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in sistersMarried"
+},
+{
+  "_id": {
+    "$oid": "6799c1ccc9141a266f237fd4"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "sistersUnmarried",
+  "validationType": "fieldLength",
+  "message": "SistersUnmarried length should not greater than 2",
+  "value": "2"
+},
+{
+  "_id": {
+    "$oid": "6799c260c9141a266f237fd6"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "brothersMarried",
+  "validationType": "fieldLength",
+  "message": "BrothersMarried length should not greater than 2",
+  "value": "2"
+},
+{
+  "_id": {
+    "$oid": "6799c297c9141a266f237fd8"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "brothersMarried",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in brothersMarried"
+},
+{
+  "_id": {
+    "$oid": "6799c2c3c9141a266f237fd9"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "brothersUnmarried",
+  "validationType": "fieldLength",
+  "message": "BrothersUnmarried length should not greater than 2",
+  "value": "2"
+},
+{
+  "_id": {
+    "$oid": "6799c2d1c9141a266f237fda"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "brothersUnmarried",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in brothersUnmarried"
+},
+{
+  "_id": {
+    "$oid": "6799c333c9141a266f237fdb"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "selfDescription",
+  "validationType": "fieldLength",
+  "message": "selfDescription length should not greater than 250",
+  "value": "250"
+},
+{
+  "_id": {
+    "$oid": "6799c340c9141a266f237fdc"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "selfDescription",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in selfDescription"
+},
+{
+  "_id": {
+    "$oid": "6799c3c4c9141a266f237fdd"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "notes",
+  "validationType": "fieldLength",
+  "message": "notes length should not greater than 250",
+  "value": "250"
+},
+{
+  "_id": {
+    "$oid": "6799c3dbc9141a266f237fde"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "notes",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in notes"
+},
+{
+  "_id": {
+    "$oid": "68021230586fa5e134d2d9d2"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "matrimonyName",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in matrimonyName",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "680212f1586fa5e134d2d9d3"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "matrimonyName",
+  "validationType": "fieldLength",
+  "message": "matrimonyName length should not greater than 30",
+  "value": "30"
+},
+{
+  "_id": {
+    "$oid": "68021313586fa5e134d2d9d4"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "brokerCategory",
+  "validationType": "fieldLength",
+  "message": "BrokerCategory length should not greater than 30",
+  "value": "30"
+},
+{
+  "_id": {
+    "$oid": "6802133c586fa5e134d2d9d5"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "brokerCategory",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in brokerCategory",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "6802152e586fa5e134d2d9d6"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "rank",
+  "validationType": "fieldLength",
+  "message": "Rank length should not greater than 4",
+  "value": "4"
+},
+{
+  "_id": {
+    "$oid": "6802153e586fa5e134d2d9d7"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "rank",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in rank"
+},
+{
+  "_id": {
+    "$oid": "681895751ae5ca6739d68c2f"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "email",
+  "validationType": "fieldLength",
+  "message": "Email length should not greater than 30",
+  "value": "30"
+},
+{
+  "_id": {
+    "$oid": "681896561ae5ca6739d68c32"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "password",
+  "validationType": "fieldLength",
+  "message": "Email length should not greater than 30",
+  "value": "30"
+},
+{
+  "_id": {
+    "$oid": "687f3973a2ba43ea760cf9f1"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "additionalNumber",
+  "validationType": "fieldLength",
+  "message": "Additional Number length should not greater than 10",
+  "value": "10"
+},
+{
+  "_id": {
+    "$oid": "687f3984a2ba43ea760cf9f2"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "additionalNumber",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in Additional Number",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "687f39aea2ba43ea760cf9f3"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "whatsAppNumber",
+  "validationType": "fieldLength",
+  "message": "WhatsApp Number length should not greater than 10",
+  "value": "10"
+},
+{
+  "_id": {
+    "$oid": "687f39c6a2ba43ea760cf9f4"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "whatsAppNumber",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in WhatsApp Number",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "689edc1e52aad52622c421eb"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "registrationNumber",
+  "validationType": "fieldLength",
+  "message": "Registration Number length should not greater than 20",
+  "value": "20"
+},
+{
+  "_id": {
+    "$oid": "689edc3452aad52622c421ec"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "registrationNumber",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in Registration Number"
+},
+{
+  "_id": {
+    "$oid": "689edc8652aad52622c421ed"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "commissionPercentage",
+  "validationType": "fieldLength",
+  "message": "Commission Percentage length should not greater than 30",
+  "value": "30"
+},
+{
+  "_id": {
+    "$oid": "689edc9752aad52622c421ee"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "commissionPercentage",
+  "validationType": "specialChar",
+  "value": "",
+  "message": "Special character not allowed in Commission Percentage"
+},
+{
+  "_id": {
+    "$oid": "68a57c4cabc5a8fe17b3f490"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "phoneNumber",
+  "validationType": "phoneLength",
+  "message": "Phone number length should not less than 10",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "68a57ccbabc5a8fe17b3f492"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "whatsAppNumber",
+  "validationType": "phoneLength",
+  "message": "WhatsApp Number  length should not less than 10",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "68a57d00abc5a8fe17b3f493"
+  },
+  "formName": "AddEditBroker",
+  "fieldName": "additionalNumber",
+  "validationType": "phoneLength",
+  "message": "Additional Number length should not less than 10",
+  "value": ""
+}]

@@ -1,0 +1,126 @@
+[{
+    "formName": "AddEditUserPlan",
+    "fieldName": "planName",
+    "validationType": "fieldLength",
+    "message": "planName length should not greater than 30",
+    "value": "30"
+  },
+  {
+    "formName": "AddEditUserPlan",
+    "fieldName": "planFor",
+    "validationType": "fieldLength",
+    "message": "planFor length should not greater than 10",
+    "value": "10"
+  },
+  {
+    "formName": "AddEditUserPlan",
+    "fieldName": "planFor",
+    "validationType": "specialChar",
+    "message": "Special character not allowed in planFor",
+    "value": ""
+  },
+  {
+    "formName": "AddEditUserPlan",
+    "fieldName": "brokerName",
+    "validationType": "fieldLength",
+    "message": "brokerName length should not greater than 30",
+    "value": "30"
+  },
+  {
+    "formName": "AddEditUserPlan",
+    "fieldName": "brokerName",
+    "validationType": "specialChar",
+    "message": "Special character not allowed in brokerName",
+    "value": ""
+  },
+  {
+    "formName": "AddEditUserPlan",
+    "fieldName": "planPeriod",
+    "validationType": "fieldLength",
+    "message": "planPeriod length should not greater than 10",
+    "value": "10"
+  },
+  {
+    "formName": "AddEditUserPlan",
+    "fieldName": "planPeriod",
+    "validationType": "specialChar",
+    "message": "Special character not allowed in planPeriod",
+    "value": ""
+  },
+  {
+    "formName": "AddEditUserPlan",
+    "fieldName": "planDuration",
+    "validationType": "fieldLength",
+    "message": "planDuration length should not greater than 2",
+    "value": "2"
+  },
+  {
+    "formName": "AddEditUserPlan",
+    "fieldName": "planDuration",
+    "validationType": "specialChar",
+    "message": "Special character not allowed in planDuration",
+    "value": ""
+  },
+  {
+    "formName": "AddEditUserPlan",
+    "fieldName": "planCost",
+    "validationType": "fieldLength",
+    "message": "planCost length should not greater than 5",
+    "value": "5"
+  },
+  {
+    "formName": "AddEditUserPlan",
+    "fieldName": "planCost",
+    "validationType": "specialChar",
+    "message": "Special character not allowed in planCost",
+    "value": ""
+  },
+  {
+    "formName": "AddEditUserPlan",
+    "fieldName": "viewPerNoOfdays",
+    "validationType": "fieldLength",
+    "message": "viewPerNoOfdays length should not greater than 3",
+    "value": "3"
+  },
+  {
+    "formName": "AddEditUserPlan",
+    "fieldName": "viewPerNoOfdays",
+    "validationType": "specialChar",
+    "message": "Special character not allowed in viewPerNoOfdays",
+    "value": ""
+  },
+  {
+    "formName": "AddEditUserPlan",
+    "fieldName": "viewCountLimit",
+    "validationType": "fieldLength",
+    "message": "viewCountLimit length should not greater than 3",
+    "value": "3"
+  },
+  {
+    "formName": "AddEditUserPlan",
+    "fieldName": "viewCountLimit",
+    "validationType": "specialChar",
+    "message": "Special character not allowed in viewCountLimit",
+    "value": ""
+  },
+  {
+    "formName": "AddEditUserPlan",
+    "fieldName": "downloadCountLimit",
+    "validationType": "fieldLength",
+    "message": "downloadCountLimit length should not greater than 3",
+    "value": "3"
+  },
+  {
+    "formName": "AddEditUserPlan",
+    "fieldName": "downloadCountLimit",
+    "validationType": "specialChar",
+    "message": "Special character not allowed in downloadCountLimit",
+    "value": ""
+  },
+  {
+    "formName": "AddEditUserPlan",
+    "fieldName": "phoneNumber",
+    "validationType": "specialChar",
+    "message": "Special character not allowed in phoneNumber",
+    "value": ""
+  }]

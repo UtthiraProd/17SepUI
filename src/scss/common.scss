@@ -1,0 +1,127 @@
+.bordererror{
+    border-color:red !important;
+    }
+    .labelerror{
+      color: red !important;
+    }
+
+    img {
+      display: block;
+      max-width: 100% !important;
+      height: 100% !important;
+    }
+
+    .m-l-5{
+      margin-left: 5px !important;
+    }
+
+    #dvulogin .a:hover{
+       color: red;
+    }
+
+    /* Overlay styling */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* Spinner animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 6px solid rgba(255, 255, 255, 0.3); /* Light border */
+  border-top: 6px solid white; /* Darker border for spinning effect */
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.field {
+  white-space: nowrap; /* Prevents the text from wrapping to the next line */
+}
+
+.custom-label {
+  margin-bottom: 0px;
+  line-height: 0.5; /* Adjust line height to control spacing */
+}
+
+.custom-value {
+  margin-top: 0px;
+  margin-bottom: 22px;
+  font-weight: 600;
+  line-height: 0.5; /* Adjust line height for minimal vertical space */
+}
+
+.custom-select {
+  border-color: #d5d5d5;  /* Change to your preferred color */
+  border-width: 2px;   /* Increase the border width */
+}
+
+.form-control[type="file"] {
+  border: 1px solid #bbb; /* Light grey border */
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #333;
+}
+
+.border-box {
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: #bbb;
+}
+
+.custom-dropdown-toggle {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  color: blue; /* Default text color */
+  font-weight: bold; /* Make text bold */
+}
+
+.select-placeholder {
+  color: #6c757d;         /* Light gray when "Select" is shown */
+  font-weight: normal; /* Override bold from .custom-dropdown-toggle */
+}
+
+.dropdown-arrow {
+  float: right;
+}
+
+.custom-dropdown-menu {
+  position: relative;
+  top: 100%;
+  left: 0;
+  width: auto;
+  border: 1px solid #ccc;
+  background: #fff;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.dropdown-option {
+  display: block;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.error-text {
+  color: red;
+}
+

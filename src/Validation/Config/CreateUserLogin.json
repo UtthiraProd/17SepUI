@@ -1,0 +1,35 @@
+[{
+    "formName": "CreateUserLogin",
+    "fieldName": "name",
+    "validationType": "fieldLength",
+    "message": "name length should not greater than 30",
+    "value": "30"
+  },
+  {
+    "formName": "CreateUserLogin",
+    "fieldName": "phoneNumber",
+    "validationType": "fieldLength",
+    "message": "phoneNumber length should not greater than 10",
+    "value": "10"
+  },
+  {
+    "formName": "CreateUserLogin",
+    "fieldName": "email",
+    "validationType": "fieldLength",
+    "message": "Email length should not greater than 30",
+    "value": "30"
+  },
+  {
+    "formName": "CreateUserLogin",
+    "fieldName": "phoneNumber",
+    "validationType": "specialChar",
+    "message": "Special character not allowed in phoneNumber",
+    "value": ""
+  },
+  {
+    "formName": "CreateUserLogin",
+    "fieldName": "email",
+    "validationType": "email",
+    "message": "Email Should be valid",
+    "value": ""
+  }]

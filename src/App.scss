@@ -1,0 +1,69 @@
+.App {
+    text-align:left;
+ }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: red;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .m-l-5{
+    margin-left: 5px !important;
+  }
+  
+  .aspect-ratio-box {
+    position: relative;
+    width: 100%;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+  }
+  
+  .upper-div {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 200px; /* Set the height of the upper div */
+    background-color: #552626; /* Optional background color for visibility */
+  }
+  
+  .centered-image {
+    max-width: 100%; /* Ensure the image doesn't exceed the width of the div */
+  }  
+
+  .datepickerLabel{
+    display: inline-block;
+  }
+
+  .react-datepicker-wrapper
+  {
+    width: 100% !important;
+  }

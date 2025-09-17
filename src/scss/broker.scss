@@ -1,0 +1,135 @@
+.card {
+  border-width: 2px;
+  border-color: #07874f87;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.03);
+  box-shadow: 0 2px 3px rgba(182, 87, 87, 0.03);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.padding {
+  padding: 3rem !important
+}
+
+body {
+  background-color: #ffffff
+}
+
+h5.card-title {
+  font-size: 15px;
+}
+
+.fw-400 {
+  font-weight: 400 !important;
+}
+
+.card-title {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 0;
+  padding: 15px 20px;
+  border-bottom: 1px solid rgba(77,82,89,0.07);
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+#dvbrokerlist .form-control {
+  border-color: #b5bbb6;
+  border-radius: 5px;
+  color: #8b95a5;
+  padding: 7px 12px;
+  font-size: 14px;
+  line-height: inherit;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+#dvbrokerlist .form-control:hover{
+  border-color: green;
+}
+
+#dvbrokerlist .btn-success{
+  margin-left: 25px;
+
+}
+.card-body>*:last-child {
+  margin-bottom: 0;
+}
+#dvbrokerlist .card-img-top{
+    margin-left: 55px;
+    margin-top: 10px;
+}
+.btn-bold {
+  font-family: Roboto,sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.btn-primary:hover {
+  background-color: #52d3c7;
+  border-color: #52d3c7;
+  color: #fff;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.form-control:focus {
+  border-color: #83e0d7;
+  color: #4d5259;
+  -webkit-box-shadow: 0 0 0 0.1rem rgba(51,202,187,0.15);
+  box-shadow: 0 0 0 0.1rem rgba(51,202,187,0.15);
+}
+
+.custom-radio {
+  cursor: pointer;
+}
+
+.custom-control {
+  display: -webkit-box;
+  display: flex;
+  min-width: 18px;
+}
+
+#dvbrokerlist .secondarybutton{
+  background-color: rgba(83, 200, 130, 0.839);
+  color: white;
+  border-color: white;
+}
+
+#dvbrokerlist .secondarybutton:hover{
+  background-color: rgb(210, 221, 210);
+  color: black;
+  // transform: scaleY(0.8);
+}
+
+#dvpendinglist .card{
+border: 2px solid teal;
+border-radius: 5px;
+padding: 10px;
+}
+
+#dvpendinglist .card:hover{
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease-in;
+  box-shadow: 5px 0 0 7px rgb(191, 239, 185);
+}
+#dvpendinglist .name:hover{
+   color: rgb(7, 130, 69);
+}
+#dvpendinglist .name{
+  font-family:cursive;
+}

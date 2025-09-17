@@ -1,0 +1,81 @@
+.container {
+    padding: 20px;
+  }
+  
+  .table-wrapper {
+    overflow-x: auto;
+  }
+  
+  .responsive-table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .header-row, .data-row {
+    display: flex;
+    width: 100%;
+  }
+  
+  .header-cell, .data-cell, .month-cell {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .month-cell {
+    text-align: left;
+  }
+  
+  .header-cell {
+    background-color: #f1f1f1;
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .header-row {
+      display: none;
+    }
+  
+    .data-row {
+      flex-direction: column;
+      margin-bottom: 10px;
+    }
+  
+    .data-cell {
+      text-align: left;
+      padding-left: 50%;
+      position: relative;
+    }
+  
+    .data-cell::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 0;
+      width: 50%;
+      padding-left: 10px;
+      font-weight: bold;
+      text-align: left;
+      background-color: #f1f1f1;
+    }
+  
+    .month-cell {
+      font-weight: bold;
+      text-align: left;
+      background-color: #f1f1f1;
+    }
+  }
+  
+  #dvuhoroscope .dropdown-option{
+    font-size: 13px;
+    padding: 0px 3px 0px 5px;
+  }
+  #dvuhoroscope .border-box{
+     font-size: 12px;
+  }
+
+  #dvuhoroscope .image-card{
+    width: 100px !important;
+    height: 100px !important;
+  }

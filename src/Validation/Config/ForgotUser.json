@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "6802166f7f46618416fc59e5"
+  },
+  "formName": "ForgotUser",
+  "fieldName": "phoneNumber",
+  "validationType": "phone",
+  "value": "",
+  "message": "Phone number should be valid"
+},
+{
+  "_id": {
+    "$oid": "6802168f7f46618416fc59e6"
+  },
+  "formName": "ForgotUser",
+  "fieldName": "phoneNumber",
+  "validationType": "fieldLength",
+  "message": "Phone Number length should not greater than 10",
+  "value": "10"
+},
+{
+  "_id": {
+    "$oid": "680216ad7f46618416fc59e7"
+  },
+  "formName": "ForgotUser",
+  "fieldName": "phoneNumber",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in phone number",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "680216e97f46618416fc59e8"
+  },
+  "formName": "ForgotUser",
+  "fieldName": "otp",
+  "validationType": "otp",
+  "value": "",
+  "message": "OTP should be valid"
+},
+{
+  "_id": {
+    "$oid": "680217027f46618416fc59e9"
+  },
+  "formName": "ForgotUser",
+  "fieldName": "otp",
+  "validationType": "fieldLength",
+  "message": "OTP length should not greater than 6",
+  "value": "6"
+},
+{
+  "_id": {
+    "$oid": "6802173f7f46618416fc59ea"
+  },
+  "formName": "ForgotUser",
+  "fieldName": "otp",
+  "validationType": "specialChar",
+  "message": "Special character not allowed in OTP",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "68a57932abc5a8fe17b3f48e"
+  },
+  "formName": "ForgotUser",
+  "fieldName": "phoneNumber",
+  "validationType": "phoneLength",
+  "message": "Phone number length should not less than 10",
+  "value": "10"
+}]

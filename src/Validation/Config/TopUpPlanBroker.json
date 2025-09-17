@@ -1,0 +1,7 @@
+[{
+  "formName": "TopUpPlanBroker",
+  "fieldName": "balanceAmount",
+  "validationType": "fieldLength",
+  "message": "Topup length should not greater than 10",
+  "value": "10"
+}]

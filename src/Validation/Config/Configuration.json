@@ -1,0 +1,91 @@
+
+[{
+  "_id": {
+    "$oid": "680cc6400a75d809be3cef16"
+  },
+  "formName": "Configuration",
+  "fieldName": "motherTongue",
+  "validationType": "fieldLength",
+  "message": "MotherTongue length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "680dc331e853138b82d10e62"
+  },
+  "formName": "Configuration",
+  "fieldName": "caste",
+  "validationType": "fieldLength",
+  "message": "Caste length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "680dc362e853138b82d10e63"
+  },
+  "formName": "Configuration",
+  "fieldName": "foreignCountry",
+  "validationType": "fieldLength",
+  "message": "ForeignCountry length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "680dcd89e853138b82d10e64"
+  },
+  "formName": "Configuration",
+  "fieldName": "qualification",
+  "validationType": "fieldLength",
+  "message": "Qualification length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "680dd676e853138b82d10e65"
+  },
+  "formName": "Configuration",
+  "fieldName": "job",
+  "validationType": "fieldLength",
+  "message": "Job length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "680ef740020e03bf747d4120"
+  },
+  "formName": "Configuration",
+  "fieldName": "name",
+  "validationType": "fieldLength",
+  "message": "State length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "68240d184b3ad724a3413b54"
+  },
+  "formName": "Configuration",
+  "fieldName": "religion",
+  "validationType": "fieldLength",
+  "message": "Religion length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "68240d7e4b3ad724a3413b55"
+  },
+  "formName": "Configuration",
+  "fieldName": "district",
+  "validationType": "fieldLength",
+  "message": "District length should not greater than 50",
+  "value": "50"
+},
+{
+  "_id": {
+    "$oid": "68240df74b3ad724a3413b56"
+  },
+  "formName": "Configuration",
+  "fieldName": "location",
+  "validationType": "fieldLength",
+  "message": "Location length should not greater than 50",
+  "value": "50"
+}]

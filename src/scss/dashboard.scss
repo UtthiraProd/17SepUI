@@ -1,0 +1,44 @@
+  
+ 
+
+  .custom-link-cardtitle {
+    color: #1aa179;        /* Set text color */
+    text-decoration: none;  /* Remove underline */
+    font-weight: 600;      /* Set font weight for boldness */
+    font-size: 30px;       /* Set font size (adjust as needed) */
+  }
+
+  .custom-link-cardbody {
+    color: #1aa179;        /* Set text color */
+    text-decoration: none;  /* Remove underline */
+    font-weight: 600;      /* Set font weight for boldness */
+    font-size: 20px;       /* Set font size (adjust as needed) */
+  }
+
+
+  .dashboardcard {
+    border: 1px solid #ABB5BE;    /* Blue border with 2px width */
+    border-radius: 30px;        /* Rounded corners */
+    padding: 20px;             /* Inner spacing */
+}
+
+.parent-container {
+  display: flex;
+  justify-content: center; /* Horizontally centers the link */
+  align-items: center;     /* Vertically centers the link */
+  height: 5vh;           /* Optional: for full-height vertical centering */
+  margin-top: 6px;
+}   
+
+.responsive-img-dashboard {
+  width: 70%;  /* The image takes the full width of its container */
+  height: auto; /* The height adjusts automatically to keep aspect ratio */
+  max-width: 70px; /* Optional: Set a max width to control size */
+}
+
+.h6 {
+  font-weight: 500; /* Use a number (100-900) or keywords (normal, bold, bolder, lighter) */
+  /* You can also add other styles, for example: */
+  font-size: 14px; /* Adjust size as needed */
+  color: #333; /* Change text color */
+}

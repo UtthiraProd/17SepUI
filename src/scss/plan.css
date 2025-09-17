@@ -1,0 +1,19 @@
+#dvuPlan .form-control{
+    border: 1px solid gray;
+}
+
+#dvuPlan .form-control:hover{
+    border: 1px solid green;
+}
+
+#dvuPlan .plan{
+    border: 1px solid green;
+}
+
+#dvuPlan .plan:hover{
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in;
+    box-shadow: 2px 0 0 3px rgb(191, 239, 185);
+}
+
