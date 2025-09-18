@@ -103,7 +103,7 @@ export function BrokerProfileList(){
             setCurrentPage(1)
             onPageChange(parseInt(1))
             dispatch(searchProfileBrokToBrok(searchData));
-            dispatch(resetsearchProfileBrokToBrok())
+            // dispatch(resetsearchProfileBrokToBrok())
         }
         
         // optional navigation state, meaning: "I'm coming from the 'Broker' page."
