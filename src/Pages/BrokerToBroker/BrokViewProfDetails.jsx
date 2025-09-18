@@ -24,12 +24,12 @@ export function BrokViewProfDetails(){
   const navigate = useNavigate();
 
 
-const { isgetBrokProfByIdLosding, isgetBrokProfByIdSuccess, ProfileDetail, isgetBrokerProfileImageUrlLoading,
+const { isgetBrokProfByIdLoading, isgetBrokProfByIdSuccess, ProfileDetail, isgetBrokerProfileImageUrlLoading,
   isgetBrokerProfileImageUrlSuccess,  ImageUrl, isGetBrokerDetailsSuccess, isGetBrokerDetailsLoading, BrokerDetails} = useSelector((state)=>state.brok)
 // const {Images}= useSelector((state)=>state.prof)
 
   useEffect(() => {
-    if (isgetBrokProfByIdLosding == false && isgetBrokProfByIdSuccess == false) {
+    if (isgetBrokProfByIdLoading == false && isgetBrokProfByIdSuccess == false) {
       dispatch(getBrokProfById({profileID:profileId}))
     }
     if(isGetBrokerDetailsLoading == false && isGetBrokerDetailsSuccess == false){
@@ -111,7 +111,23 @@ const { isgetBrokProfByIdLosding, isgetBrokProfByIdSuccess, ProfileDetail, isget
     <p className="h3">Profile Details</p><br />
     <div className="row">
 
-<div className="col-md-8">
+              
+
+  <div className="col-md-8">
+
+  <div className="card-container">
+              {isgetBrokProfByIdLoading && (
+                <>
+                  <div className="section-skeleton">
+                    <div className="skeleton skeleton-Detail-section1"></div>
+                  </div>
+                </>
+
+              )} </div>
+
+{!isgetBrokProfByIdLoading && (
+  <>
+
     <div className="row">
       <label style={{ fontWeight: 'bold' }} className="col-4 col-form-label">Name</label>
       <div className="col-8">
@@ -227,15 +243,30 @@ const { isgetBrokProfByIdLosding, isgetBrokProfByIdSuccess, ProfileDetail, isget
       </div>
     </div> 
 
-                
+    </>)}        
     </div>
+
+
+
     
     <div className="col-md-4 mt-3">
-       {/* <div className="col-md-5 p-3" style={{height:550}}> */}
-       <div> 
+
+        <div className="card-container">
+              {isgetBrokerProfileImageUrlLoading && (
+                <>
+                  <div className="section-skeleton">
+                    <div className="skeleton skeleton-Detail-section1"></div>
+                  </div>
+                </>
+
+              )} </div>
+
+              {!isgetBrokerProfileImageUrlLoading && (
+                <>
+                     <div> 
                     {isgetBrokerProfileImageUrlSuccess && !isgetBrokerProfileImageUrlLoading && (
                       ImageUrl && ImageUrl.length > 0 ? (
-                        <div  >
+                        <div>
                           <Carousal imageUrls={ImageUrl} onImageChange={handleImageChange} 
                            style={{ width: '100%', height: '100%', objectFit: 'cover' }}/>
                           {/* <ShareImageToWhatsApp imageUrl={currentImageUrl} /> */}
@@ -256,13 +287,33 @@ const { isgetBrokProfByIdLosding, isgetBrokProfByIdSuccess, ProfileDetail, isget
                       )
                     )}
                      </div>
-                     </div> 
-                     </div>
-                     {/* </div>  */}
+                </>
+              )}
+       {/* <div className="col-md-5 p-3" style={{height:550}}> */}
+  
+    </div> 
+
+
+  </div>
+
+
+
 <p className="mt-3"><h2>Horoscope</h2></p>
+ <div className="card-container">
+              {isgetBrokProfByIdLoading && (
+                <>
+                  <div className="section-skeleton">
+                    <div className="skeleton skeleton-Detail-section1"></div>
+                  </div>
+                </>
+
+              )} </div>
      <div className="row row-cols-1 row-cols-md-3">
 
-    <div className="col">
+       
+
+              {!isgetBrokProfByIdLoading && (<>
+                <div className="col">
     <div className="row">
                   <label style={{ fontWeight: 'bold' }} className="col-4 col-form-label">Dhosam</label>
                   <div className="col-8">
@@ -562,13 +613,27 @@ const { isgetBrokProfByIdLosding, isgetBrokProfByIdSuccess, ProfileDetail, isget
                 )}
  </div>
     </div>
-        </div>     
+        </div>   
+              </>)}
+
+    
 </div> 
 
 <div className="col-md-4 mt-3">
       <h2>Broker Details</h2>
-  
-<div className="row">
+
+       <div className="card-container">
+              {isGetBrokerDetailsLoading && (
+                <>
+                  <div className="section-skeleton">
+                    <div className="skeleton skeleton-Detail-section1"></div>
+                  </div>
+                </>
+
+              )} </div>
+
+              {!isGetBrokerDetailsLoading && (<>
+              <div className="row">
       <label style={{ fontWeight: 'bold' }} className="col-4 col-form-label">Broker name</label>
       <div className="col-8">
         <label className="form-control-plaintext">: {BrokerDetails?.name}</label>
@@ -595,6 +660,9 @@ const { isgetBrokProfByIdLosding, isgetBrokProfByIdSuccess, ProfileDetail, isget
         <label className="form-control-plaintext">: {BrokerDetails?.district}</label>
       </div>
     </div>
+              </>)}
+  
+
 
       </div>
     

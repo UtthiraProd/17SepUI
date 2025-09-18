@@ -8,6 +8,7 @@ import femaleavatar from '../../img/Female_avatar.svg'
 import { useState } from "react"
 import {getAllStars} from "../../Features/Slices/profSlice"
 import { use } from 'react';
+import { getProfileDetailsById } from "../../Features/Slices/profSlice"
 
 export function MatchProfile() {
 
@@ -91,6 +92,15 @@ const { stars,
       (state) => state.prof
     )
 
+
+    useEffect(() => {
+         dispatch(getProfileDetailsById(profileId))
+   })
+
+     const profile =
+    useSelector(
+      (state) => state.prof
+    )
    
    
     useEffect(()=>{
@@ -99,7 +109,7 @@ const { stars,
                    dispatch(getAllStars())
            }
 
-           if (isgetMatchProfileLoading === false && isgetMatchProfileSuccess === false) {
+          //  if (isgetMatchProfileLoading === false && isgetMatchProfileSuccess === false) {
                if (matchStartIndex && matchPageIndex) {
                     setStartPage(parseInt(matchStartIndex))
                     setCurrentPage(parseInt(matchPageIndex))
@@ -113,9 +123,9 @@ const { stars,
                   //  dispatch(resetgetMatchProfile())
                     // dispatch(searchProfile(searchData))
                   }
-               }
+              //  }  
     
-    },[isgetMatchProfileLoading,isgetMatchProfileSuccess],dispatch);
+    },[],dispatch);
     const calculateAge = (dobString) => {
     const today = new Date();
     const dob = new Date(dobString);
@@ -213,7 +223,7 @@ const onSearchClick = () => {
 
 const onResetClick = () => {
   setSelectedStars([]); // Clear all selected checkboxes
-  dispatch(resetStarFilters());
+  // dispatch(resetStarFilters());
 
   setCurrentPage(1);
   setStartPage(1);
@@ -226,7 +236,7 @@ const onResetClick = () => {
   };
 
   dispatch(getMatchProfile(defaultSearchData)); // API call with no stars
-  dispatch(resetgetMatchProfile())
+  // dispatch(resetgetMatchProfile())
 
   // Close modal/drawer if open
   if (onHandleShow.current) {
@@ -303,7 +313,11 @@ const onResetClick = () => {
           <p className="h6 mb-0 ms-2" onClick={backuButtonUrl} style={{ cursor: 'pointer' }}>Go Back</p>
         </div>
        
-    <p className='h4'>Matching Profile</p>
+    <p className='h4'>Matching Profile </p><br />
+    <p className='h5'>
+  Star : <span style={{ color: '#1dba8bff' }}>{profile?.profileDetails?.star}</span>
+</p>
+    
 <br />
 
     Page {currentPage} of {totalRecourd}
@@ -416,7 +430,7 @@ const onResetClick = () => {
 
           } </div>
 
-
+{(!isgetMatchProfileLoading && MatchProfile) ? (
     <div className='container'>
                     
         <div className="container py-0" >
@@ -465,7 +479,7 @@ const onResetClick = () => {
          </div>
         </div>
     </div>
-
+):(null)}
 
     <div>  
           <div style={{ display: 'flex', justifyContent: 'left', alignItems: 'left', marginTop: '20px' }}>

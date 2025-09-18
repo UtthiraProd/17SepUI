@@ -18,6 +18,8 @@ export function PUMarriageProfDetail(){
     const [show, setShow] = useState(false);
     const [searchParams] = useSearchParams();
     const profileID = searchParams.get('id');
+     const pageIndex = searchParams.get('pageIndex')
+    const pageStartIndex= searchParams.get('pageStartIndex')
     const formatDate = (dateTime) => {
     const date = new Date(dateTime);
     const year = date.getFullYear();
@@ -95,7 +97,8 @@ export function PUMarriageProfDetail(){
   };
 
   const GoBack = () =>{
-    navigate ('/PUMarriageProfiles')
+    // navigate ('/PUMarriageProfiles')
+     navigate ('/PUMarriageProfiles?id'+'&pageIndex='+pageIndex+'&pageStartIndex='+pageStartIndex)
     dispatch(resetgetPUprofileById())
   }
 

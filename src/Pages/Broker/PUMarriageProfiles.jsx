@@ -44,9 +44,9 @@ export function PUMarriageProfiles(){
   const {name, sex, religion, caste, ageFrom, ageTo, status} = searchData
 
     useEffect(()=>{
-        if(!isgetAllPUMarriageProfileLoading && !isgetAllPUMarriageProfileSuccess){
-            dispatch(getAllPUMarriageProfile())
-        }
+        // if(!isgetAllPUMarriageProfileLoading && !isgetAllPUMarriageProfileSuccess){
+        //     dispatch(getAllPUMarriageProfile())
+        // }
 
         if(!isReligionLoading && !isReligionSuccess){
           dispatch(getAllReligions())
@@ -167,7 +167,8 @@ export function PUMarriageProfiles(){
       };
 
       const PUdetails = (profileID) => {
-        navigate('/PUMarriageProfDetail?id=' + profileID)
+        // navigate('/PUMarriageProfDetail?id=' + profileID)
+        navigate('/PUMarriageProfDetail?id=' + profileID+'&pageIndex='+currentPage+'&pageStartIndex='+startPage)
       }
 
     return(<>
@@ -330,11 +331,69 @@ export function PUMarriageProfiles(){
 
         </div>
 
-{getAllPUMarriageProfileRecods} profiles found.
+
+<div className="container">
+  <div className="row row-cols-md-1 row-cols-lg-4">
+    {isgetAllPUMarriageProfileLoading && (
+      <>
+        {[1, 2, 3 ,4,5,6,7,8,9].map((_, idx) => (
+          <div
+            key={idx}
+            className="rounded m-2 card-skeleton"
+            style={{ width: '400px', height: '210px' }}
+          >
+            <div className="row">
+              {/* Image skeleton */}
+              <div
+                className="col"
+                style={{
+                  width: '150px',
+                  height: '190px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  overflow: 'hidden'
+                }}
+              >
+                <div
+                  className="skeleton skeleton-image"
+                  style={{
+                    width: '150px',
+                    height: '150px',
+                    borderRadius: '4px'
+                  }}
+                ></div>
+              </div>
+
+              {/* Text skeleton */}
+              <div className="col mt-4">
+                <div
+                  className="skeleton skeleton-title"
+                  style={{ width: '60%', height: '20px', marginBottom: '20px' }}
+                ></div>
+                <div
+                  className="skeleton skeleton-description"
+                  style={{ width: '80%', height: '15px', marginBottom: '15px' }}
+                ></div>
+                <div
+                  className="skeleton skeleton-description"
+                  style={{ width: '70%', height: '15px' }}
+                ></div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </>
+    )}
+  </div>
+</div>
+  {(!isgetAllPUMarriageProfileLoading && GetAllPUMarriageProfile) ? (
     
     <div className="container">
+      {getAllPUMarriageProfileRecods} profiles found.
         <div className="row row-cols-1 row-cols-md-3 py-3 ">
-    {GetAllPUMarriageProfile.map((profiles)=>(
+  {GetAllPUMarriageProfile.length > 0 ? (
+    GetAllPUMarriageProfile.map((profiles)=>(
         <div key={profiles} className="col">
 
             <div className="row border border-dark rounded m-2 py-2" style={{ width: '400px', height: '210px'}}>
@@ -352,9 +411,15 @@ export function PUMarriageProfiles(){
             </div>
         </div>
         
-    ))}
+  ))
+  ):(
+    <div className="text-center w-100">
+      <h5>0 records</h5>
     </div>
+     )}
     </div>
+     </div>
+    ):(null)}
 
     <div>
           <div style={{ display: 'flex', justifyContent: 'left', alignItems: 'left', marginTop: '20px' }}>

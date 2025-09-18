@@ -142,7 +142,7 @@ export function ProfileList() {
            setStartPage(1)
            setCurrentPage(1)
         })
-        dispatch(resetProfileList())
+        // dispatch(resetProfileList())
         
     if (onHandleShow.current) {
       onHandleClose.current.hide();

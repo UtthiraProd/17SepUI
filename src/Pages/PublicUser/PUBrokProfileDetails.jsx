@@ -287,12 +287,13 @@ export function PUBrokProfileDetails() {
               width: '70%',
               stack: [
                 { text: profileID.MarriageprofileDetail.name || "-", bold: true, margin: [0, 0, 0, 6] },
-                { text: profileID.MarriageprofileDetail.profileID || "-", margin: [0, 0, 0, 6] },
+                // { text: profileID.MarriageprofileDetail.profileID || "-", margin: [0, 0, 0, 6] },
                 {
                   text: profileID.MarriageprofileDetail.sex === 'Male' ? `UM${profileID.MarriageprofileDetail.profileID || "-"}`
                     : profileID.MarriageprofileDetail.sex === 'Female' ? `UF${profileID.MarriageprofileDetail.profileID || "-"}`
                       : null, margin: [0, 0, 0, 6]
                 },
+                 { text: profileID.MarriageprofileDetail.sex || "-", margin: [0, 0, 0, 6] },
                 //  { text: (profile?.profileDetails?.DOB.split('T')[0]) || "-", margin: [0, 0, 0, 8] },
                 // { text: (formatDateDayMonthYear(profileID?.MarriageprofileDetail?.DOB)) || "-", margin: [0, 0, 0, 6] },
                 {text: (profileID?.MarriageprofileDetail?.DOB? new Date(profileID.MarriageprofileDetail.DOB).toLocaleDateString('en-GB'): "-"),margin: [0, 0, 0, 6],font: 'Roboto',fontSize:11 },

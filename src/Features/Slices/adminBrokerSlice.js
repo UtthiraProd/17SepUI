@@ -769,6 +769,7 @@ export const adminBrokerSlice = createSlice({
             state.isgetAllPUMarriageProfileLoading = true
         })
         .addCase(getAllPUMarriageProfile.fulfilled,(state,action)=>{
+            state.isgetAllPUMarriageProfileLoading = false
             state.isgetAllPUMarriageProfileSuccess = true
             state.GetAllPUMarriageProfile = action.payload.marriageProfile
             state.getAllPUMarriageProfilePages = action.payload.totalPages

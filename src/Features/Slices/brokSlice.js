@@ -96,7 +96,7 @@ const initialState ={
     profileImageList: [],
     filter: {},
 
-    isgetBrokProfByIdLosding: false,
+     isgetBrokProfByIdLoading: false,
     isgetBrokProfByIdSuccess: false,
     isgetBrokProfByIdError: false,
     isgetBrokProfByIdMessae: false,
@@ -514,13 +514,13 @@ export const brokSlice = createSlice({
                 state.filter = action.payload;
                },
             resetgetBrokProfById:(state)=>{
-            state.isgetBrokProfByIdLosding=false
+            state. isgetBrokProfByIdLoading=false
             state.isgetBrokProfByIdSuccess=false
             state.isgetBrokProfByIdError=false
         },
 
         resetgetBrokProfById:(state)=>{
-            state.isgetBrokProfByIdLosding=false
+            state. isgetBrokProfByIdLoading=false
             state.isgetBrokProfByIdSuccess=false
             state.isgetBrokProfByIdError=false
         },
@@ -760,16 +760,16 @@ export const brokSlice = createSlice({
                             state.profileImageList =[]
                         })
                         .addCase(getBrokProfById.pending,(state)=>{
-                            state.isgetBrokProfByIdLosding = true
+                            state. isgetBrokProfByIdLoading = true
                         })
                         .addCase(getBrokProfById.fulfilled,(state,action)=>{
-                            state.isgetBrokProfByIdLosding = false
+                            state. isgetBrokProfByIdLoading = false
                             state.isgetBrokProfByIdSuccess = true
                             state.isgetBrokProfByIdMessae = action.payload.isSuccess
                             state.ProfileDetail = action.payload.ProfileDetail
                         })
                         .addCase(getBrokProfById.rejected,(state,action)=>{
-                             state.isgetBrokProfByIdLosding = false
+                             state. isgetBrokProfByIdLoading = false
                             state.isgetBrokProfByIdError = true
                             state.ProfileDetail = {}
                         })
