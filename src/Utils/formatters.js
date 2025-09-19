@@ -1,9 +1,9 @@
 
 export function formatToTwoDigits(number) {
 
-if(number == null || number== undefined || number==''|| number =='null' )
-  return ''
-else
+// if(number == null || number== undefined || number==''|| number =='null' )
+//   return ''
+// else
   return  number?.toString().padStart(2, '0');
 }
 

@@ -8,7 +8,7 @@ import femaleavatar from '../../img/Female_avatar.svg'
 import { useState } from "react"
 import {getAllStars} from "../../Features/Slices/profSlice"
 import { use } from 'react';
-import { getProfileDetailsById } from "../../Features/Slices/profSlice"
+import { getProfileDetailsById ,resetGetProfileDetailsById } from "../../Features/Slices/profSlice"
 
 export function MatchProfile() {
 
@@ -29,11 +29,12 @@ export function MatchProfile() {
 
     const onProfileClick = (id) => {
     navigate('/MatchprofileDetail?id=' + id+ "&profId="+ profileId +'&pageIndex=' + pageIndex + '&pageStartIndex=' + pageStartIndex + "&matchPageIndex=" + currentPage + '&matchStartIndex=' + startPage,);
-              dispatch(resetgetMatchProfile())
+              dispatch(resetGetProfileDetailsById ())
   }
  
      const backuButtonUrl = () =>{
     navigate('/BrokerProfile?id=' + profileId+ "&name=profileList&pageIndex=" + pageIndex + '&pageStartIndex=' + pageStartIndex)
+    dispatch(resetGetProfileDetailsById())
   }
     const {isgetMatchProfileLoading,isgetMatchProfileSuccess,MatchProfile,matchImageList,totalRecourd,filters} = useSelector((state) =>state.brok);
 
